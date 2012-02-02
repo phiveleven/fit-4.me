@@ -1,0 +1,149 @@
+/*
+ Theme Name: Fit
+ Description: With Luv from sis & friends.
+ Author: Blix Creative + Phiveleven
+ Author URI: blixcreative.com
+ Version: 0.1
+*/
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+/*** { background:rgba(255,0,0,.1) }/**/
+
+* { margin:0; padding:0; outline:0; border:0 }
+a { text-decoration:none; color:#62e0de }
+
+html { background:url(glow.png) fixed 90% -100px no-repeat #4C97C1;
+  color:#fff; font:100%/1.4 Arial }
+body, body>header { min-width:1158px }
+html, body { overflow-x: hidden }
+h1, h2, header { font:400 100%/1.4 Rokkitt,serif }
+h1 { font-size:53px; margin:45px 0 0; line-height:65px; color:#cefefe }
+h2 { font-size:34px; line-height:37px; color:#cefefe; margin-bottom:.6em }
+  h2 strong { font-weight:normal; color:#cefefe }
+h3 { text-transform:uppercase; font-weight:normal; font-size:17px }
+
+button { background:#1c4e7f; color:#cdfefe; border-radius:20px; display:inline-block;
+  padding:3px 30px; text-transform:uppercase; display:block; margin:22px auto;
+  font:22px/25px Rokkitt }
+
+section > a:first-child + header { background:url(top-gradient-bg.png) repeat-x;
+  width:100%; position:relative }
+  section > a:first-child + header:before,
+  section > a:first-child + header:after { background:url(top-gradient-bg.png) repeat-x;
+  position:absolute; top:0; bottom:0; right:100%; width:9999px; content:'' }
+  section > a:first-child + header:after { left:100% }
+   
+  #icon { background:url(fit-4me_logo.png) no-repeat; vertical-align:top;
+    width:165px; height:84px; text-indent:-9999px; display:inline-block;
+    float:right }
+    
+  section > header span { float:right; text-align:right; display:none;
+    font-family:Arial; text-transform:uppercase; font-size:15px }
+  .twitter, .facebook, .email { vertical-align:top; color:transparent;
+    background:url(sprite.png) no-repeat; display:inline-block;
+    text-indent:9999px; width:32px; height:33px; margin:17px 0 12px 5px;
+    direction:rtl; white-space:nowrap }
+  .twitter { background-position:-33px -33px }
+    .twitter:hover { background-position:-33px 0 }
+  .facebook { background-position:0 -33px }
+    .facebook:hover { background-position:0 0 }
+  .email { background-position:-66px -33px }
+    .email:hover { background-position:-66px 0 }
+    
+  header nav { margin-bottom:1em; width:1076px; margin:auto;
+    padding-top:10px; text-align:left }
+    header nav a { display:inline-block; padding:0 30px; min-height:41px;
+      border-left:1px dashed #cdfefe; vertical-align:middle; color:#1c4e7f;
+      text-transform:uppercase; margin:14px 0; text-align:center;
+      font-size:21px; line-height:1em }
+    header nav a:first-child { border:0; padding-left:0 }
+    header nav a small { display:block; color:#cdfefe; font:100 small Arial }
+    
+
+body > section { margin:0 auto; max-width:1075px; padding:0 12px 0;
+  margin-bottom:100px }
+section > * { width:600px }
+
+#home { background:url(cindy-with-resistance-bands.png) no-repeat 85% 128px;
+  min-height:926px }
+#about { background:url(cindy-jumping.png) no-repeat right bottom;
+  min-height:894px }
+#rates { background:url(cindy-core-exercise.png) no-repeat right bottom;
+ min-height:615px }
+#services { background:url(cindy-client-yogaball.png) no-repeat right bottom;
+ min-height:880px }
+#contact { background:url(cindy-apple.png) no-repeat right bottom;
+ min-height:482px }
+
+
+section > small { font-size:14px; width:470px; display:block }
+blockquote { margin:32px 0; padding:22px 100px 30px 0;
+  border:1px solid #7dc2dc; border-width:1px 0; width:500px;
+  box-shadow:0 -1px 0 #125b8f inset, 0 -1px 0 #125b8f;
+  text-transform:uppercase }
+blockquote q { font-style:italic; text-transform:none }
+blockquote + blockquote { display:none }
+
+
+#home > header,
+#home > header:before,
+#home > header:after { background-position: 0 92px }
+
+#home #icon { float:none }
+#home > header span { display:block }
+#home > header nav { clear:both }
+section > a > header { font-size:32px; padding-left:80px; height:80px; line-height:34px }
+
+
+#complimentary_consultation,
+#sign_up_and_save { float:left; width:290px; color:#cdfefe; margin-bottom:28px;
+  background:url(handshake.png) left top no-repeat; font-size:16px; line-height:1.5 }
+#sign_up_and_save { background-image:url(25-percent-off.png); margin-left:25px;
+  border-left:1px dotted #fff; padding-left:25px; background-position:25px 0 }
+#complimentary_consultation button,
+#sign_up_and_save button { width:auto }
+  
+#about p { margin-bottom:103px }
+
+#rates section { float:left; width:213px; margin:10px 5px 0 0; background:#164a74;
+  color:white; box-shadow:0 0 3px rgba(0,0,0,.3); padding:7px; overflow:hidden }
+  #rates section:first-child { margin-left:0 }
+#rates section header { background:#77d3e9; color:#164a74; text-transform:uppercase;
+  padding:7px; margin:-7px -7px 7px }
+#rates p { clear:both; padding:30px 0 0; margin-bottom:187px }
+
+#services h2 { margin:.6em 0 0 }
+
+#contact { margin-bottom:0 }
+form { background:#164A74; border-radius:20px; padding: 25px; font:21px Rokkitt;
+  min-height:260px }
+form label:first-child { position:absolute; left:-9999px; top:-9999px }
+label { float:left; margin:10px; width:275px }
+#contact_method { width:100% }
+#contact_method input { display:inline-block }
+input { font-size:19px; display:block; width:270px; padding:3px; border-radius:5px;
+  margin-top:5px }
+#zip { margin:10px 0 0 18px }
+form small { display:block; clear:both; text-align:right }
+form button { background:#43d1d0; color:#164A74 }
+#contact footer { position:relative; top:40px; margin-bottom:200px }
+
+.error { background:#f00; border-radius:5px; padding:10px }
+ 
+#home nav a[href="/"] { display:none }
+#about nav a[href$=about],
+#rates nav a[href$=rates],
+#services nav a[href$=services],
+#contact nav a[href$=contact] { color:#000 }
+ 
+    
+  
+footer { margin:20px 0 0; font-size:12px; position:fixed; bottom:0; left:0;
+  background:url(top-gradient-bg.png) repeat-x; width:100%; z-index:-1;
+  position:relative; clear:both }
+  footer > * { line-height:40px; display:inline-block; white-space:nowrap;
+    width:300px }
+  #credit { text-align:right; padding-left:50px }
+  footer:before,
+  footer:after { background:url(top-gradient-bg.png) repeat-x; width:9999px;
+    position:absolute; top:0; bottom:0; content:''; right:100% }
+  footer:after { left:100% }
